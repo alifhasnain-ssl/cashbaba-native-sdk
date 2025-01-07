@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "android_generated",
+    "module": "native_image_cropper_android_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_image_cropper_android_release-1.0.aar",
+          "url": "native_image_cropper_android_release-1.0.aar",
+          "size": 10141,
+          "sha512": "8c02be555c0bd910dadc6ec8eefd1a3f0fd4e11f29265f24c1321de3a025fa4caf3d90ac73e256828f70ef55047248d641b6d25bd08fa65941b8853480ebe5ba",
+          "sha256": "fc6cdd92e0c5063102f8307ab23b338649f9fffa5e3e5ea30fd8f32f4ac13a70",
+          "sha1": "7d2b00d9173ebc61118e80a49601f736aa38f282",
+          "md5": "63db8931c668be6c6db1689636581aa4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "androidx.exifinterface",
+          "module": "exifinterface",
+          "version": {
+            "requires": "1.3.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "native_image_cropper_android_release-1.0.aar",
+          "url": "native_image_cropper_android_release-1.0.aar",
+          "size": 10141,
+          "sha512": "8c02be555c0bd910dadc6ec8eefd1a3f0fd4e11f29265f24c1321de3a025fa4caf3d90ac73e256828f70ef55047248d641b6d25bd08fa65941b8853480ebe5ba",
+          "sha256": "fc6cdd92e0c5063102f8307ab23b338649f9fffa5e3e5ea30fd8f32f4ac13a70",
+          "sha1": "7d2b00d9173ebc61118e80a49601f736aa38f282",
+          "md5": "63db8931c668be6c6db1689636581aa4"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "native_image_cropper_android_release-1.0-sources.jar",
+          "url": "native_image_cropper_android_release-1.0-sources.jar",
+          "size": 3374,
+          "sha512": "db4867f452fc7a0b7c8f2ddfba86d6145c895c24ce590887a8128208b2959edcd95fd576e994a94a045f7e45eb73336274351d3cbf5d13cd71de855419b0cc58",
+          "sha256": "f27e5fa6b116d5767ce826d68e6138ee64cd55bd2a4aa70b11bd13de4497c0c3",
+          "sha1": "e8cc2510a5e715ad1b9fd5ea7bd44a0f0b0abec9",
+          "md5": "0aa1a341022bb3c1e8f8c9c39e047d7f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "native_image_cropper_android_release-1.0-javadoc.jar",
+          "url": "native_image_cropper_android_release-1.0-javadoc.jar",
+          "size": 269495,
+          "sha512": "be934a9a1c3a8122386fd0147fce54829e30ca883e993b5ef4da94b4e1b65ee05a7323234a06a99258ab26a9498d504b6179da5d4c1d486b2e14ead0662d1f1a",
+          "sha256": "76838a7f33ef6bd03b5f3feb27aef7a2e6ca2e59f13cff2626f5453b30fe30a5",
+          "sha1": "4893ffefae8d98ff7281fc29a2a44fbf7eaec00e",
+          "md5": "97514949f6dc82a0991e8b74191259f9"
+        }
+      ]
+    }
+  ]
+}

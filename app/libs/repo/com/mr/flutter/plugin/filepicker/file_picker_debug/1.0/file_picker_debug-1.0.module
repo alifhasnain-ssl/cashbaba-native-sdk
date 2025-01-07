@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mr.flutter.plugin.filepicker",
+    "module": "file_picker_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "file_picker_debug-1.0.aar",
+          "url": "file_picker_debug-1.0.aar",
+          "size": 29675,
+          "sha512": "0c88b233549e4115ca291f5e73a7a32eac64c781d0e1e4ade1d37a8acec54e12ab071cb430b21bf009859c8d0edf8da0e90e352390a9a78cf1995bbb34c297ee",
+          "sha256": "026f43eac485a4bf9860e4f3335cc900291e2a76d4143098fd8fea2d7ffdbf32",
+          "sha1": "69ebfb33fb632b2143a0a8da77a0821f79b4d3d5",
+          "md5": "360f9534ca126752072baa05bb6145fb"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
+          "module": "flutter_plugin_android_lifecycle_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "file_picker_debug-1.0.aar",
+          "url": "file_picker_debug-1.0.aar",
+          "size": 29675,
+          "sha512": "0c88b233549e4115ca291f5e73a7a32eac64c781d0e1e4ade1d37a8acec54e12ab071cb430b21bf009859c8d0edf8da0e90e352390a9a78cf1995bbb34c297ee",
+          "sha256": "026f43eac485a4bf9860e4f3335cc900291e2a76d4143098fd8fea2d7ffdbf32",
+          "sha1": "69ebfb33fb632b2143a0a8da77a0821f79b4d3d5",
+          "md5": "360f9534ca126752072baa05bb6145fb"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "file_picker_debug-1.0-sources.jar",
+          "url": "file_picker_debug-1.0-sources.jar",
+          "size": 11103,
+          "sha512": "1c1bb60be81ed922b9bfc980352c9a3484b1dc6168f9c70d1b5185628bf3a98dc66cefe96552e216ff8cbc4a5902eab8c1768d84f20b56d2407bf1f467158879",
+          "sha256": "b6bfd3ea1afff5c8561930aef727f74c49addfa0e9848a624b766cc1b3f97fb1",
+          "sha1": "75158855d6a0c87abf61d40f52ab4b2e1dd899b9",
+          "md5": "c1883634fd84132fba15f2f651a8c6b5"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "file_picker_debug-1.0-javadoc.jar",
+          "url": "file_picker_debug-1.0-javadoc.jar",
+          "size": 290889,
+          "sha512": "012464148d7c2a16dc31587a27a5480845d613e2f85242b9231f34993618dc31fda7d13981f9fc356a155349053caae0372ee8b87d67628fa043d5826ad17a4c",
+          "sha256": "bd233cab1db04a58a5e6feff36b1b438988c9bd6254d11ae629ba1dbaa5f512e",
+          "sha1": "ca17ff9ecadc08508a6605391cbd39a1d76e7e14",
+          "md5": "81fafa967d68f0828a59cab10d656975"
+        }
+      ]
+    }
+  ]
+}

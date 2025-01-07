@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mastertipsy.flutter_localization",
+    "module": "flutter_localization_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_localization_debug-1.0.aar",
+          "url": "flutter_localization_debug-1.0.aar",
+          "size": 5554,
+          "sha512": "695679a369c6424cac0816414460b72e1798a8e2eff92dd6efc622e64f23e6a323eb0360b90e8eae15f05f5523cbe70c5155026392e24e16ac84be63d606881a",
+          "sha256": "c431e3428c67a71876c97db49cd8b3150304e79a603052b8716adb3816ab1c7b",
+          "sha1": "ab18d9673d46bc1b53be062905ec39d6e3b519b8",
+          "md5": "0d0591a04d32323b33c4c69c9da546a0"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_localization_debug-1.0.aar",
+          "url": "flutter_localization_debug-1.0.aar",
+          "size": 5554,
+          "sha512": "695679a369c6424cac0816414460b72e1798a8e2eff92dd6efc622e64f23e6a323eb0360b90e8eae15f05f5523cbe70c5155026392e24e16ac84be63d606881a",
+          "sha256": "c431e3428c67a71876c97db49cd8b3150304e79a603052b8716adb3816ab1c7b",
+          "sha1": "ab18d9673d46bc1b53be062905ec39d6e3b519b8",
+          "md5": "0d0591a04d32323b33c4c69c9da546a0"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_localization_debug-1.0-sources.jar",
+          "url": "flutter_localization_debug-1.0-sources.jar",
+          "size": 1747,
+          "sha512": "6234bc1a39e4856221c4ba470a8be5ba7e5cd40a2b6ac306cd6851c942f752e40fe7d208ca5dd2672deb0a2d2f76bd44add23e521fd58a8180d5853eab98616e",
+          "sha256": "27868b31397fb8a867aa40b133d821cf7491ebd5e396f52845c1d69d0c7696d8",
+          "sha1": "7f7b8c001a4d6add1e7d21fbf42a8c9db072e4fc",
+          "md5": "bd2af6d8eefd7a71cda64e0230c37ebd"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_localization_debug-1.0-javadoc.jar",
+          "url": "flutter_localization_debug-1.0-javadoc.jar",
+          "size": 266454,
+          "sha512": "f51b863a80ac7ea441dc3c28383436f33873f51a77c98bb1e7cfa93dc827d9d30998cf450257498e4529670dbda83ddc2b659effe2f23249ccebdad96e2c7c8e",
+          "sha256": "cd169efb4973a2daf30e9690ac268e0fa0631e3da7b534230f75a47ea230670f",
+          "sha1": "a677414a73638d55e55612bafbf1f59ce60eae37",
+          "md5": "e4579b21986dea8cafb586e59cd12e31"
+        }
+      ]
+    }
+  ]
+}

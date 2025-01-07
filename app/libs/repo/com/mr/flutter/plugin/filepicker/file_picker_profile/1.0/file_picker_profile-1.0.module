@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mr.flutter.plugin.filepicker",
+    "module": "file_picker_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "file_picker_profile-1.0.aar",
+          "url": "file_picker_profile-1.0.aar",
+          "size": 28416,
+          "sha512": "aa9913d0813b061e8af72921a61d6d4422ec840aaf1bd377bca1462686362341ccb84accd86c2e3a8355feec9b956df9edff07e89edd4bc1ddc70b36f99ff2c1",
+          "sha256": "f39d46f5246f5696d403485d84ff4cbabbc05ec0ff166f6d4da052f114d4000f",
+          "sha1": "a57f9f9b39e9c991e8f385635cf218cdea2a46d0",
+          "md5": "fe3a0cfbd0f5886fd3f3e670f378e90b"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
+          "module": "flutter_plugin_android_lifecycle_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "file_picker_profile-1.0.aar",
+          "url": "file_picker_profile-1.0.aar",
+          "size": 28416,
+          "sha512": "aa9913d0813b061e8af72921a61d6d4422ec840aaf1bd377bca1462686362341ccb84accd86c2e3a8355feec9b956df9edff07e89edd4bc1ddc70b36f99ff2c1",
+          "sha256": "f39d46f5246f5696d403485d84ff4cbabbc05ec0ff166f6d4da052f114d4000f",
+          "sha1": "a57f9f9b39e9c991e8f385635cf218cdea2a46d0",
+          "md5": "fe3a0cfbd0f5886fd3f3e670f378e90b"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "file_picker_profile-1.0-sources.jar",
+          "url": "file_picker_profile-1.0-sources.jar",
+          "size": 11090,
+          "sha512": "695a74dc0438a1cb14b933999a666e8463dcb3fc0f1596474764c313211d41d2306af88e5d04e74e649774f8fc7e43b532a2f9c5868c5866da50310b1b25a32b",
+          "sha256": "20049fdfe670e75f6d766b813119b96f91884a252f2bba5b2f5b323b623548bd",
+          "sha1": "a031e6520abbe349f1c71022cc26a0cba3ac4f20",
+          "md5": "446f5b0b4d3ce2b9525f799be965439a"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "file_picker_profile-1.0-javadoc.jar",
+          "url": "file_picker_profile-1.0-javadoc.jar",
+          "size": 290889,
+          "sha512": "453d6dd0dae25f7c6dceb8a11886854bfb8eebb9841e6644cf01966eb7a0146be958f2d4a38fd9e09c257d6ddcf575fb899e0eeabc6d6d067cca21b4de322219",
+          "sha256": "6cb5bd1cb0d3711fff09c21236bb7100f756b373faf6ae0e8c8d3ec2dae2625b",
+          "sha1": "f99c72b04d1cd0c5db59f8ecc75579330f6f2ac8",
+          "md5": "c8e5245d3048918ed8b7577f191a9fbd"
+        }
+      ]
+    }
+  ]
+}

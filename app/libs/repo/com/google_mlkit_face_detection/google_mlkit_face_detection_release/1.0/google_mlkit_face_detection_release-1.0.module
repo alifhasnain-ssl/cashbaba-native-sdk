@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google_mlkit_face_detection",
+    "module": "google_mlkit_face_detection_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_mlkit_face_detection_release-1.0.aar",
+          "url": "google_mlkit_face_detection_release-1.0.aar",
+          "size": 20203,
+          "sha512": "709c046dcf9e9348c2b6806cf9557f85d91751e2491a8ce4b23258ef10ede8ebbba38369ebb341f2dc38e3a617d58617401ed62318fd2f17e44b9faec5b4c6da",
+          "sha256": "bdf50726190cdc6990f0c40c8e898c61f8f6099e297a0d6c2451345d583a83e5",
+          "sha1": "5021effed185c2c8dff7426c5900e38289515bc3",
+          "md5": "a4be7797a61eb33773808316f0b67766"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "face-detection",
+          "version": {
+            "requires": "16.1.7"
+          }
+        },
+        {
+          "group": "com.google_mlkit_commons",
+          "module": "google_mlkit_commons_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "google_mlkit_face_detection_release-1.0.aar",
+          "url": "google_mlkit_face_detection_release-1.0.aar",
+          "size": 20203,
+          "sha512": "709c046dcf9e9348c2b6806cf9557f85d91751e2491a8ce4b23258ef10ede8ebbba38369ebb341f2dc38e3a617d58617401ed62318fd2f17e44b9faec5b4c6da",
+          "sha256": "bdf50726190cdc6990f0c40c8e898c61f8f6099e297a0d6c2451345d583a83e5",
+          "sha1": "5021effed185c2c8dff7426c5900e38289515bc3",
+          "md5": "a4be7797a61eb33773808316f0b67766"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "google_mlkit_face_detection_release-1.0-sources.jar",
+          "url": "google_mlkit_face_detection_release-1.0-sources.jar",
+          "size": 3704,
+          "sha512": "324f5804318bde69ababbff4abbb2cf2e4d6c06fb695c3a80a0fb39a440f2660a005eb278392dc59e2105bb754fb502f63d8b9c052ad68e7ac382f4b7fb5369c",
+          "sha256": "2fdcaf3cc620e21b7a1eb5946ef95d1fe5299b881a9881be024e8921e5f5d923",
+          "sha1": "51f712d49701bd71b953684a5b8883d90cb57bba",
+          "md5": "45b1fe30e3bdbabb3ab09b95f543c183"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "google_mlkit_face_detection_release-1.0-javadoc.jar",
+          "url": "google_mlkit_face_detection_release-1.0-javadoc.jar",
+          "size": 265914,
+          "sha512": "52b6d9b63395a039f50e6b78237220bdb65d70b8ff1545412856368d4dff28e178f4af13fd0d6e9860cb293ede0394d03157e404b32b6467d889e497c77fada2",
+          "sha256": "214059b6d82c5bce86e5d1114211f306fc21a76d1f855c50818bcd4a77229c5b",
+          "sha1": "c354beb2030d2859d50860dc0bf916a8a1227d52",
+          "md5": "5fac0aeba61adab9047165499636af9b"
+        }
+      ]
+    }
+  ]
+}

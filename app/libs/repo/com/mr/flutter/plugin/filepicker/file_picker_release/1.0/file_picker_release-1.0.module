@@ -1,0 +1,144 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mr.flutter.plugin.filepicker",
+    "module": "file_picker_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "file_picker_release-1.0.aar",
+          "url": "file_picker_release-1.0.aar",
+          "size": 28418,
+          "sha512": "11864ef4eb519af866d9dbd97e29100e6498377a9c4966158eaabf8f75084d152939be5c4a535822202dcb81a12b033edb7509ebef495953e798906618f4ddb9",
+          "sha256": "02ea44e1720f558d83702e9ec584294b3227faf3358a684b9419f7eff45280c6",
+          "sha1": "c47366ec105651ea2320cb2f2d3e83e4b06d3da9",
+          "md5": "3e70695ffafe056d0ca711fb15a04b8a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.0.2"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
+          "module": "flutter_plugin_android_lifecycle_release",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "file_picker_release-1.0.aar",
+          "url": "file_picker_release-1.0.aar",
+          "size": 28418,
+          "sha512": "11864ef4eb519af866d9dbd97e29100e6498377a9c4966158eaabf8f75084d152939be5c4a535822202dcb81a12b033edb7509ebef495953e798906618f4ddb9",
+          "sha256": "02ea44e1720f558d83702e9ec584294b3227faf3358a684b9419f7eff45280c6",
+          "sha1": "c47366ec105651ea2320cb2f2d3e83e4b06d3da9",
+          "md5": "3e70695ffafe056d0ca711fb15a04b8a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "file_picker_release-1.0-sources.jar",
+          "url": "file_picker_release-1.0-sources.jar",
+          "size": 11089,
+          "sha512": "28f76799c41ef42b024db7fe3d669426930c31ad65f2393df441f94a9ed1f347b3d567cd067764d8ac9caca3ffacf825ebf0eeeff4e1ee71f156dabbd6e744c0",
+          "sha256": "c8ad5ca47949be877b35939863b5ffb1dd0963cd5a3da669670445e83325e001",
+          "sha1": "b3769f0397803fd68e339b3a7e448b2e655e9cb2",
+          "md5": "7d6a9095a28793cf828dea3ec859fa47"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "file_picker_release-1.0-javadoc.jar",
+          "url": "file_picker_release-1.0-javadoc.jar",
+          "size": 290889,
+          "sha512": "012464148d7c2a16dc31587a27a5480845d613e2f85242b9231f34993618dc31fda7d13981f9fc356a155349053caae0372ee8b87d67628fa043d5826ad17a4c",
+          "sha256": "bd233cab1db04a58a5e6feff36b1b438988c9bd6254d11ae629ba1dbaa5f512e",
+          "sha1": "ca17ff9ecadc08508a6605391cbd39a1d76e7e14",
+          "md5": "81fafa967d68f0828a59cab10d656975"
+        }
+      ]
+    }
+  ]
+}

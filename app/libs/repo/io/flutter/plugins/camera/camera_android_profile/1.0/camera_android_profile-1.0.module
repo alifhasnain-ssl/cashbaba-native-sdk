@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.flutter.plugins.camera",
+    "module": "camera_android_profile",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "profileVariantProfileApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camera_android_profile-1.0.aar",
+          "url": "camera_android_profile-1.0.aar",
+          "size": 161306,
+          "sha512": "fe61aad4e3f8131cac0f1473500a0bfe57f9e4b4dd0e72b03b61eb6fca911983be7391394af0078bd2f8673912a0008c7f4fd33409de24148fc02fc1bdf0d8fe",
+          "sha256": "254dc043876baff49b168e56de2472ace15f8060613768dc252d3e88fbedec68",
+          "sha1": "2e539139bbce6a158c80a7cba1df415f0de01bc8",
+          "md5": "39a19d4d090e8156e820c1f3c9c5b8e9"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_profile",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.9.1"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
+          "module": "flutter_plugin_android_lifecycle_profile",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camera_android_profile-1.0.aar",
+          "url": "camera_android_profile-1.0.aar",
+          "size": 161306,
+          "sha512": "fe61aad4e3f8131cac0f1473500a0bfe57f9e4b4dd0e72b03b61eb6fca911983be7391394af0078bd2f8673912a0008c7f4fd33409de24148fc02fc1bdf0d8fe",
+          "sha256": "254dc043876baff49b168e56de2472ace15f8060613768dc252d3e88fbedec68",
+          "sha1": "2e539139bbce6a158c80a7cba1df415f0de01bc8",
+          "md5": "39a19d4d090e8156e820c1f3c9c5b8e9"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "camera_android_profile-1.0-sources.jar",
+          "url": "camera_android_profile-1.0-sources.jar",
+          "size": 87491,
+          "sha512": "22bdaddb09fa5a226bc719aff5d3d7dcdb67cc81d22a35044e77941810df75033b1d3961b4fd977c3afb86c87e6a3080c6a6e0ddd54e192da4aa021018a1559a",
+          "sha256": "5df2d6437f322de05f579945c0f963abe7b2557dd1d39f252573b694c7741d92",
+          "sha1": "0276048a9ae9d83ab47624952565e5f3e5368f69",
+          "md5": "c252a2ef4e460457ffeef3eed26aedaf"
+        }
+      ]
+    },
+    {
+      "name": "profileVariantProfileJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "camera_android_profile-1.0-javadoc.jar",
+          "url": "camera_android_profile-1.0-javadoc.jar",
+          "size": 603531,
+          "sha512": "3de02a6af2786f688b1a8b89deebf00443e6449fb138e0b34f89bc797f0e91927ab3ea609ced2bf64de0c7714c5f4ebabd50b17b37a0cb60163a8ac561155325",
+          "sha256": "1d934868a8fbf21daee4468f74eb0f1c685d53f37d1bb78625501ac912609163",
+          "sha1": "99198499726ad93bbd37da665ccde72858c3c171",
+          "md5": "ee6d0753a4e2a4d825837198f38ca16e"
+        }
+      ]
+    }
+  ]
+}

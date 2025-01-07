@@ -1,0 +1,130 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mastertipsy.flutter_localization",
+    "module": "flutter_localization_release",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_localization_release-1.0.aar",
+          "url": "flutter_localization_release-1.0.aar",
+          "size": 5386,
+          "sha512": "c895f43c2677a1c807385e2b21b180319f884f61b57b1e5428ea5c9477eb3e24b5bd55e0c49b8d058ea726679c25414ca9e3629ddcbc93303c34431bcfbb5960",
+          "sha256": "50fa4ba6da5f8331a52fc9b774a5c7f55f7b8443edb378e09ddc17fda912c2d9",
+          "sha1": "bcdafa1c3506d382783ae04cf20704901feee529",
+          "md5": "34d758cbf5b77432abab0233bb81621f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_release",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_localization_release-1.0.aar",
+          "url": "flutter_localization_release-1.0.aar",
+          "size": 5386,
+          "sha512": "c895f43c2677a1c807385e2b21b180319f884f61b57b1e5428ea5c9477eb3e24b5bd55e0c49b8d058ea726679c25414ca9e3629ddcbc93303c34431bcfbb5960",
+          "sha256": "50fa4ba6da5f8331a52fc9b774a5c7f55f7b8443edb378e09ddc17fda912c2d9",
+          "sha1": "bcdafa1c3506d382783ae04cf20704901feee529",
+          "md5": "34d758cbf5b77432abab0233bb81621f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_localization_release-1.0-sources.jar",
+          "url": "flutter_localization_release-1.0-sources.jar",
+          "size": 1732,
+          "sha512": "4933de9bf75159eb9914c1acbf73afd1a501acfdb28aa3d75250a0f348c4e8724a36e6cb534495a4290e6effd907f126ed0d5cb67a91e6ab7bdab36af3368022",
+          "sha256": "2431d43a7f6b51db5a0dcf0c487e50203d1f38daaa3e42c0d8dfb203bb19d200",
+          "sha1": "c57ed15367861911a6ff4501734dd8286b431f95",
+          "md5": "b6b3231c9468d317cf712b32bd40df95"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_localization_release-1.0-javadoc.jar",
+          "url": "flutter_localization_release-1.0-javadoc.jar",
+          "size": 266454,
+          "sha512": "f51b863a80ac7ea441dc3c28383436f33873f51a77c98bb1e7cfa93dc827d9d30998cf450257498e4529670dbda83ddc2b659effe2f23249ccebdad96e2c7c8e",
+          "sha256": "cd169efb4973a2daf30e9690ac268e0fa0631e3da7b534230f75a47ea230670f",
+          "sha1": "a677414a73638d55e55612bafbf1f59ce60eae37",
+          "md5": "e4579b21986dea8cafb586e59cd12e31"
+        }
+      ]
+    }
+  ]
+}
