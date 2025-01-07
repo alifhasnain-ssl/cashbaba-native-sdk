@@ -73,7 +73,6 @@ fun MainContent(
 
     val isRegistrationButtonEnabled = hasCredential && mobileNumber.isNotEmpty()
 
-    val isBalanceButtonEnabled = hasCredential
 
     val clipboardManager: ClipboardManager = LocalClipboardManager.current
 
@@ -214,7 +213,7 @@ fun MainContent(
             ) {
                 Button(
                     onClick = { onFlutterClick(MethodType.Balance) },
-                    enabled = isBalanceButtonEnabled,
+                    enabled = hasCredential,
                     modifier = Modifier.weight(1f)
                 ) {
                     Text(text = MethodType.Balance.toDisplayString())

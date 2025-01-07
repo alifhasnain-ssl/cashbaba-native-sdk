@@ -161,11 +161,11 @@
         {
           "name": "flutter_profile-1.0.aar",
           "url": "flutter_profile-1.0.aar",
-          "size": 15250823,
-          "sha512": "54b85b7e3b459ca57c2574ff657ae2f05ab431bf9fdde53d1b4b23fa86bfc609edd543640a6012cc84d104382611bc41facf1574420b78275e3f64cf354a331d",
-          "sha256": "e0b2d55fa10ce1e3298053fe6234f75b97be5b13f1978197f50fc90dec577722",
-          "sha1": "1c17863df29cf0846148c058a255f269b704e9db",
-          "md5": "ceb0099be592cc799b0d600480d6d444"
+          "size": 15251354,
+          "sha512": "9b4764a4ac01e19a4e107ad96170f4d1a6da6610394d49aeeb6befb090f4f2a4108aaaab29cdece88893fe3d2def9a0cb0ca6c72c82ce5dbb8ffbd237f90be71",
+          "sha256": "835c20678fef721aab6f85536dd868e5564b178cae953883614236b7f01bc828",
+          "sha1": "71e410364ba87bd6115ff90b1d53ab2e343749b0",
+          "md5": "f0e9a08e725672080f99c9ccdf68a2ab"
         }
       ]
     },
@@ -316,11 +316,11 @@
         {
           "name": "flutter_profile-1.0.aar",
           "url": "flutter_profile-1.0.aar",
-          "size": 15250823,
-          "sha512": "54b85b7e3b459ca57c2574ff657ae2f05ab431bf9fdde53d1b4b23fa86bfc609edd543640a6012cc84d104382611bc41facf1574420b78275e3f64cf354a331d",
-          "sha256": "e0b2d55fa10ce1e3298053fe6234f75b97be5b13f1978197f50fc90dec577722",
-          "sha1": "1c17863df29cf0846148c058a255f269b704e9db",
-          "md5": "ceb0099be592cc799b0d600480d6d444"
+          "size": 15251354,
+          "sha512": "9b4764a4ac01e19a4e107ad96170f4d1a6da6610394d49aeeb6befb090f4f2a4108aaaab29cdece88893fe3d2def9a0cb0ca6c72c82ce5dbb8ffbd237f90be71",
+          "sha256": "835c20678fef721aab6f85536dd868e5564b178cae953883614236b7f01bc828",
+          "sha1": "71e410364ba87bd6115ff90b1d53ab2e343749b0",
+          "md5": "f0e9a08e725672080f99c9ccdf68a2ab"
         }
       ]
     },

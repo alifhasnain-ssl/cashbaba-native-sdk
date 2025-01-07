@@ -118,11 +118,11 @@
         {
           "name": "camera_android_profile-1.0-javadoc.jar",
           "url": "camera_android_profile-1.0-javadoc.jar",
-          "size": 603531,
-          "sha512": "3de02a6af2786f688b1a8b89deebf00443e6449fb138e0b34f89bc797f0e91927ab3ea609ced2bf64de0c7714c5f4ebabd50b17b37a0cb60163a8ac561155325",
-          "sha256": "1d934868a8fbf21daee4468f74eb0f1c685d53f37d1bb78625501ac912609163",
-          "sha1": "99198499726ad93bbd37da665ccde72858c3c171",
-          "md5": "ee6d0753a4e2a4d825837198f38ca16e"
+          "size": 603574,
+          "sha512": "18ebb5372ea9559577213e4d2104db9d4b9afba1023d4e69ebd7bbc9e9670b6120a9b7be39ca69e0271a017b7f05724bbf717e3cd4aa9bc05e5ad1e3d35ed567",
+          "sha256": "51b5327bc6da21891033aff4471dadcbba6eb20aaebaedbdd27b023152d234a7",
+          "sha1": "4bfacfaa7b5721f24e7666b0e59376a88474ac05",
+          "md5": "3ec1bf390b867eb26aa7546987187f6b"
         }
       ]
     }

@@ -111,11 +111,11 @@
         {
           "name": "path_provider_android_profile-1.0-javadoc.jar",
           "url": "path_provider_android_profile-1.0-javadoc.jar",
-          "size": 298294,
-          "sha512": "8636151a7435f585256bd7130cd5aa42b1cc01dcdf113a199ead88f63e4993979f4d1c3aee43997f398a7958be1ee3ec24245c9fd2981c8c9a94aa872fd32f0e",
-          "sha256": "e77a828f52f337322de17a4e8d2f7c5774fde9228d5506f6e5c4461143d6ad84",
-          "sha1": "99f3088531c9a63cde0cfd02a705096aee5c4ffd",
-          "md5": "1366d0563a764df9d780d857fc17a4d8"
+          "size": 298302,
+          "sha512": "d6f6f040ccd05023bd43002ea1a857463b4ddc1a77ca1ae45c0a83a7ca3542e35b3eb40f426ea896fa22bdb1404c279086f672b5f737ff9d8ca5f657821cfaeb",
+          "sha256": "51ba463b8c76031a66e23af2b7020fb896f3d96986441b60cebada8a0cd634a3",
+          "sha1": "6dcdacba845903b164358ecdf998c23018488e22",
+          "md5": "80017faa92ab321180f10682fa0dd20b"
         }
       ]
     }

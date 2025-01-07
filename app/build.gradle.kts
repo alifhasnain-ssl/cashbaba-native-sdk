@@ -97,6 +97,7 @@ android {
         }
 
         getByName("release") {
+//            isMinifyEnabled = true
             isMinifyEnabled = false
             isShrinkResources = false
 //            minifyEnabled false // Disable ProGuard temporarily
