@@ -237,7 +237,7 @@ fun MainContent(
                 Spacer(modifier = Modifier.height(6.dp))
                 Text(text = transactionIdString)
                 Button(onClick = {
-                    clipboardManager.setText(AnnotatedString(guIdString))
+                    clipboardManager.setText(AnnotatedString(transactionIdString))
                 }) {
                     Text("Copy")
                 }
