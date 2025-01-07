@@ -67,11 +67,11 @@ fun MainContent(
     var clientSecret by remember { mutableStateOf("") }
 
 
-    val hasCredential = clientId.isNotEmpty() && clientSecret.isNotEmpty()
-    val isLinkButtonEnabled = hasCredential && nid.isNotEmpty()
-    val isTransactionButtonEnabled = hasCredential && transactionAmount.isNotEmpty()
+    val hasCredential = clientId.trim().isNotEmpty() && clientSecret.trim().isNotEmpty()
+    val isLinkButtonEnabled = hasCredential && nid.trim().isNotEmpty()
+    val isTransactionButtonEnabled = hasCredential && transactionAmount.trim().isNotEmpty()
 
-    val isRegistrationButtonEnabled = hasCredential && mobileNumber.isNotEmpty()
+    val isRegistrationButtonEnabled = hasCredential && mobileNumber.trim().isNotEmpty()
 
 
     val clipboardManager: ClipboardManager = LocalClipboardManager.current
