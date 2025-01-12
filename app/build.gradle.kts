@@ -97,11 +97,8 @@ android {
         }
 
         getByName("release") {
-//            isMinifyEnabled = true
-            isMinifyEnabled = false
-            isShrinkResources = false
-//            minifyEnabled false // Disable ProGuard temporarily
-//            shrinkResources false // Disable shrinking resources
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"

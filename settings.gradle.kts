@@ -45,7 +45,7 @@ dependencyResolutionManagement {
         mavenCentral()
         // Add a local Maven repository where your AAR files are stored
         maven {
-            url = uri("/home/rafid/Desktop/flutter_sdk_implementation/cashbaba_merchant_sdk_implementation/cashbaba_sdk/app/libs/repo")
+            url = uri("${rootDir}\\app\\libs\\repo")
             //url = uri("/home/rafid/Desktop/flutter_sdk_projects/cashbaba_merchant_sdk/build/host/outputs/repo")
         }
         maven {
