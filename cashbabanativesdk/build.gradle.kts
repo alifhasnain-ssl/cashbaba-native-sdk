@@ -47,7 +47,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
 
-                groupId = "com.github.alifhasnain-ssl "
+                groupId = "com.github.alifhasnain-ssl"
                 artifactId = "cashbaba-native-sdk"
                 version = "0.0.1"
             }
