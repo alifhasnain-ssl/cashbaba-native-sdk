@@ -23,3 +23,4 @@
 -keep class com.app.cashbabanativesdk.FlutterEngineInitializer { *; }
 -keep class io.flutter.** { *; }
 -dontwarn io.flutter.**
+-dontwarn java.lang.invoke.StringConcatFactory
