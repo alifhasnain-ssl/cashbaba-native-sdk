@@ -46,10 +46,16 @@ afterEvaluate {
         publications {
             create<MavenPublication>("release") {
                 from(components["release"])
-
                 groupId = "com.github.alifhasnain-ssl"
                 artifactId = "cashbaba-native-sdk"
                 version = "0.0.3"
+                pom {
+                    repositories {
+                        maven {
+                            url = uri("https://github.com/alifhasnain/sdktest/raw/refs/heads/dev/repo")
+                        }
+                    }
+                }
             }
         }
     }
